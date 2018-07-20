@@ -33,4 +33,9 @@ public partial class frm1 : System.Web.UI.Page
         ViewState["count"] = count;
         
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/frm2.aspx");
+    }
 }
